@@ -42,3 +42,13 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+//processResources Task가  copySecret Task에 의존하도록 설정
+processResources.dependsOn('copySecret')
+
+//Submoudle로 가져온 설정 파일들 제 위치에 삽입
+tasks.register('copySecret', Copy) {
+    from './secret'
+    include 'application*.yml'
+    into './src/main/resources'
+}

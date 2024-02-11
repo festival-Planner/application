@@ -18,6 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "move-env": "bash move_env.sh",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
