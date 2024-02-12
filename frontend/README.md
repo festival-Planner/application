@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run move-env`
+
+Root 경로의 secret(github submodule) 파일 내 설정 파일들을 Root경로로 이동 시키는 셸 스크립트 동작
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
