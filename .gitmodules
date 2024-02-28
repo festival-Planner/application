@@ -2,3 +2,7 @@
 	path = backend/src/main/resources/config
 	url = git@github.com:festival-Planner/secret.git
 	branch = spring
+[submodule "frontend/secret"]
+	path = frontend/secret
+	url = git@github.com:festival-Planner/secret.git
+	branch = react
