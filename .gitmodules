@@ -1,8 +1,4 @@
-[submodule "frontend/secret"]
-	path = frontend/secret
-	url = git@github.com:festival-Planner/secret.git
-	branch = react
-[submodule "backend/secret"]
-	path = backend/secret
+[submodule "backend/src/main/resources/config"]
+	path = backend/src/main/resources/config
 	url = git@github.com:festival-Planner/secret.git
 	branch = spring
